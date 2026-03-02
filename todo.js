@@ -16,10 +16,10 @@ function update() {
 
     var count = 0;
     if(name === "")count++;
-     if(age ===  "")count++;
-      if(gender === "")count++;
-       if(course === "")count++;
-        if(email === "")count++;
+    if(age === "")count++;
+    if(gender === "")count++;
+    if(course === "")count++;
+    if(email === "")count++;
 
         if(count>1) {
             document.getElementById("error").innerHTML = "Fill EveryThing"
